@@ -1,0 +1,72 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.mazed{
+    padding-bottom: 20%;
+}
+h1{
+    font-size: 40px;
+}
+h2{
+    font-size: 30px;
+}
+section{
+    display: flex;
+}
+.half, .tarek{
+    width: 50%;
+    padding: 50px;
+}
+.naim{
+    padding-top: 15%;
+}
+p{
+    padding-bottom: 20px;
+}
+.link-button{
+    padding-top: 200px;
+    text-decoration: none;
+    background-color: rgb(231, 67, 94);
+    padding: 10px 40px;
+    color: white;
+    border-radius: 20px;
+}
+hr{
+    border: 1px solid #D1D1D1;
+}
+.fa-star.filled{
+    color: #FFC014;
+}
+.fa-star.empty{
+    color: #AEAEAE;
+}
+.course-banner{
+    padding: 30px;
+    box-shadow: 7px 7px 20px grey;
+    height: 80%;
+    width: 80%;
+    border-radius: 5px;
+}
+.courses{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 40px;
+    padding-left: 50px;
+    border-radius: 5px;
+}
+.link{
+    text-decoration: none;
+    color:  rgb(231, 67, 94);
+    padding-right: 40px;
+}
+footer{
+    color: white;
+    background-color: rgb(29, 2, 48);
+    height: 300px;
+}
+.padding{
+    padding-top: 30px;
+}
+.padding-flex{
+    padding-block: 10px;
+}
